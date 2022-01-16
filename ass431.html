@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- title for webpage -->
+        <title>LIKE AND DISLIKE</title> 
+        <!-- linked css file -->
+        <link rel="stylesheet" href="ass431.css">
+    </head>
+    <body>
+        <!-- header  -->
+        <header>
+            <h1>Practice with me</h1>
+        </header>
+        <div class="content">
+            <!-- content of the page -->
+            <div class="vid0">
+                <!-- video1 of content -->
+                <video src="20211216_170522.mp4" controls muted></video>
+                <!-- video file description -->
+                <h2>Bowled </h2>
+                <!-- like button for video -->
+                <button class="one" onclick="like0()"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-up_1f44d.png"></button>
+                <p id="counter"></p>
+                <!-- dislike button for video -->
+                <button  class="two" onclick="dislike0()"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-down_1f44e.png"></button>
+            </div>
+            <div class="vid1">
+                <!-- video2 of content -->
+                <video src="20211216_172758.mp4" controls muted ></video>
+                <!-- video file description -->
+                <h2>Pick Up Shot</h2>
+                 <!-- like button for video -->
+                <button class="one" onclick="like1()"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-up_1f44d.png"></button>
+                 
+                <p id="counter1"></p>
+                 <!-- dislike button for video -->
+                <button  class="two" onclick="dislike(1)"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-down_1f44e.png"></button>
+            </div>
+            <div class="vid2">
+                <!-- video1 of content -->
+                <video src="VID-20211218-WA0009.mp4" controls muted></video>
+                <!-- video file description -->
+                <h2>Mini Helicopter</h2>
+                <!-- like button for video -->
+                <button class="one" onclick="like2()"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-up_1f44d.png"></button>
+                <p id="counter2"></p>
+                <!-- dislike button for video -->
+                <button  class="two" onclick="dislike2()"><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/312/thumbs-down_1f44e.png"></button>
+            </div>
+            
+        </div>
+        <!-- script for html doc to work -->
+        <script src="ass431.js"></script>
+    </body>
+</html>

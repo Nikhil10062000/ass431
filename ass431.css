@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+video{
+    width: 600px;
+    height: 300px;
+}
+h2{
+    color:dimgray;
+}
+h2:hover{
+    color: black;
+}
+img{
+    height: 0.5cm;
+    display: inline-block;
+}
+button{
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+.one:hover{
+    background-color: royalblue;
+}
+.two:hover{
+    background-color: rgb(228, 10, 10);
+}
+.content{
+    flex-wrap: wrap;
+}
+.vid0 , .vid2{
+    float: left;
+   }
+   .vid1{
+       float: right;
+   }
+   header h1{
+      text-align : center;
+      color: silver;
+      background-color: rgb(240, 8, 8);
+   }
